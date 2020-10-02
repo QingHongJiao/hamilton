@@ -36,7 +36,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "ZiBaiCai"
+      author: "青红椒"
       image: "avatar.jpg"
       share: true
   - scope:
@@ -44,7 +44,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      author: "ZiBaiCai"
+      author: "QingHongJiao"
       image: "avatar.jpg"
 
 # Jekyll SEO Tag (Optional)
