@@ -1,0 +1,65 @@
+title: 靑紅椒
+description: 青红椒（Qinghongjiao）博客
+author: 靑紅椒
+avatar: /logo.png
+email: gmail@gmail.com
+timezone: +0000
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10
+
+# Uncomment the below line and set the tracking ID for enabling Google Analytics
+# 
+# google_analytics: 
+
+# Uncomment the below lines and set the Disqus shortname for enabling Disqus
+# 
+# disqus:
+
+# Jekyll
+# ======
+exclude:
+  - scripts/
+  - README.md
+  - jekyll-theme-hamilton.gemspec
+  
+permalink: /:title.html
+# include子页面路径在_pages文件内
+defaults:
+  - scope:
+      path: ""      
+      type: "posts"
+    values:
+      layout: "post"
+      author: "ZiBaiCai"
+      image: "avatar.jpg"
+      share: true
+  - scope:
+      path: ""      
+      type: "pages"
+    values:
+      layout: "page"
+      author: "ZiBaiCai"
+      image: "avatar.jpg"
+
+# Jekyll SEO Tag (Optional)
+# =========================
+twitter:
+  username: qinghongjiao
+  card: summary
+logo: logo.png
+social:
+  name: qinghongjiao
+  links:
+    - https://twitter.com/
+    - https://www.facebook.com/
+    - https://github.com/
+google_site_verification: u4WXQl0Eu66rs
+lang: zh-Hans
+# skin主题 白色，日出，日落，黑色（daylight，sunrise，sunset，midnight，）
+skin: daylight
