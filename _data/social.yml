@@ -1,0 +1,21 @@
+- title: Twitter
+  url: https://twitter.com/
+  icon: fab fa-twitter
+- title: Facebook
+  url: https://www.facebook.com/
+  icon: fab fa-facebook
+- title: Instagram
+  url: https://www.instagram.com/
+  icon: fab fa-instagram
+- title: YouTube
+  url: https://www.youtube.com/
+  icon: fab fa-youtube
+- title: GitHub
+  url: https://github.com/ngzhio
+  icon: fab fa-github
+- title: Stack Overflow
+  url: https://stackoverflow.com/
+  icon: fab fa-stack-overflow
+- title: LinkedIn
+  url: https://www.linkedin.com/
+  icon: fab fa-linkedin
